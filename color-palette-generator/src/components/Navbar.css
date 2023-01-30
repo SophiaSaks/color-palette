@@ -1,0 +1,12 @@
+.Navbar {
+    text-align: center;
+    background-image: url('../assets/didssph-ZB0PP-HJ604-unsplash.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #FFF4E3;
+    height: 6rem; 
+}
+
+.Navbar__title {
+    font-size: 5.5rem;
+}
