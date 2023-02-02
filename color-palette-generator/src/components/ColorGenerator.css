@@ -1,0 +1,14 @@
+.ColorGenerator__mainDiv {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0rem;
+}
+
+.ColorGenerator {
+    padding: 4rem;
+}
+
+.ColorGenerator__colorText {
+    text-align: center;
+    padding-top: 1rem;
+}
