@@ -1,6 +1,7 @@
 import './ColorGenerator.css';
-import { SketchPicker } from 'react-color';
+import { SwatchesPicker } from 'react-color';
 import { useState } from 'react'; 
+
 
 function ColorGenerator() {
   const [currentBackground1, setCurrentBackground1] = useState('#FFF');
@@ -42,7 +43,7 @@ function ColorGenerator() {
   return (
     <div className='ColorGenerator__mainDiv'>
       <div className='ColorGenerator' style={appStyle1}>
-          <SketchPicker 
+          <SwatchesPicker 
           color={currentBackground1}
           onChangeComplete={handleOnChange1}
           />
@@ -52,7 +53,7 @@ function ColorGenerator() {
       </div>
 
       <div className='ColorGenerator' style={appStyle2}>
-          <SketchPicker 
+          <SwatchesPicker 
           color={currentBackground2}
           onChangeComplete={handleOnChange2}
           />
@@ -62,7 +63,7 @@ function ColorGenerator() {
       </div>
 
       <div className='ColorGenerator' style={appStyle3}>
-          <SketchPicker 
+          <SwatchesPicker 
           color={currentBackground3}
           onChangeComplete={handleOnChange3}
           />
